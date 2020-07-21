@@ -1,0 +1,16 @@
+.iconcheck {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .image {
+      margin: 90px;
+  }
+  .berhasil {
+      text-align: center;
+      font-size: 20px;
+  }
+  .verivikasi {
+      margin: 20px;
+      text-align: center;
+  }

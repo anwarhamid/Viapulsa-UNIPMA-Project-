@@ -1,0 +1,58 @@
+.transfer {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+}
+.jumlah {
+    text-align: center;
+    font-size: 32px;
+}
+.nomor {
+    font-size: 20px;
+    text-align: right;
+}
+.isi-nomor {
+    font-size: 24px;
+    text-align: right;
+}
+.nominal {
+    font-size: 20px;
+}
+.isi-nominal {
+    font-size: 24px;
+    text-align: left;
+}
+.countdown {
+    text-align: center;
+    color: red;
+    font-size: 32px;
+    margin: 50px;
+}
+.upload-bukti-transfer {
+    text-align: center;
+    font-size: 20px;
+}
+.up {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 8px;
+    border-radius: 8px;
+    margin: 50px 50px;
+}
+.btn {
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 8px;
+    color: black;
+}
+.btn-upload {
+    color: white;
+    background-color: #FF9900;
+    width: 220px;
+}
+.upload {
+    padding: 20px;
+}
+.right {
+    text-align: center;
+}

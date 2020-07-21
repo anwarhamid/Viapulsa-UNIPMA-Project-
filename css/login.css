@@ -1,0 +1,77 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.viapulsa {
+    padding: 20px 20px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    top: 20px;
+    width: 95%;
+    padding: 20px 20px;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+  .logo {
+    width: 180px;
+    height: 50px;
+  }
+  .login {
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+    display: flex;
+  }
+  .iconhp {
+    text-align: center;
+  }
+  .iconhp img {
+    width: 33vh;
+  }
+  .avail {
+    text-align: center;
+    font-family: roboto;
+    font-size: 18px;
+  }
+  .logo-google {
+    display: flex;
+    justify-content: center;
+  }
+  .iconavail img {
+    width: 107px;
+  }
+  .hallo {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-size: 56px;
+  }
+  .btn-google {
+    color: black;
+    background-color: #ffffff;
+    padding: 0 52px!important;
+  }
+  .btn-login {
+    font-family: roboto;
+    font-size: 18px;
+    padding-top: 100px;
+    text-align: center;
+    color:white;
+  }
+  .btn-login img {
+    width: 66px;
+  }

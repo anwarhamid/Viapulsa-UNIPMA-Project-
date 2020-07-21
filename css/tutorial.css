@@ -1,0 +1,39 @@
+.carousel-inner {
+    border-radius: 8px!important;
+}
+.item {
+  border-radius: 8px!important;
+}
+.tutorial {
+    text-align: center;
+}
+.tutorial-viapulsa {
+    margin-top: 50px;
+    font-size: 24px;
+}
+.container-tutorial {
+    justify-content: center;
+    height: 187px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+}
+.col-md-4 img{
+    width: 100px;
+}
+.isi {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9900;
+    border-radius: 8px;
+}
+.cara {
+    text-align: left;
+}
+.row-provider {
+    height: 100%;
+}

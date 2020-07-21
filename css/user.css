@@ -1,0 +1,41 @@
+
+.icon-user img{
+    width: 52px;
+}
+.icon-user {
+    display: flex;
+    justify-content: center;padding: 10px 10px;
+}
+.nama {
+    text-align: center;
+}
+.user {
+    background-color: #F4F4F4;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 8px;
+    padding: 2em 10em;
+}
+.nav {
+    background-color: white;
+    padding: 2em 2em;
+}
+.btn {
+    margin: 12px;
+    background-color: white;
+}
+.button-logout {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+.btn-logout {
+    color: white;
+    background-color: #FF9900;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 8px;
+    color: black;
+}
+.container-user {
+    position: fixed;
+    top: 80px;
+    right: 0px;
+}
