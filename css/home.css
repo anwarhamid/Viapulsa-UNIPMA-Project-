@@ -15,13 +15,14 @@
 }
 
 li a {
-  display: block;
-  color: black;
+  color: white;
   text-align: center;
-  padding: 10px 35px;
+  padding: 2px 35px;
   text-decoration: none;
   font-family: "Roboto";
   font-size: 20px;
+  justify-content: center;
+  display: flex;
 }
 
 .logo {
@@ -32,8 +33,15 @@ li a {
   border-radius: 8px;
 }
 .login {
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 20px;
+  width: 125px;
+  height: 38px;
+}
+.login img{
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
 }
 .iconhome {
   display: flex;
