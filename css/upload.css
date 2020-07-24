@@ -56,3 +56,11 @@
 .right {
     text-align: center;
 }
+
+@media screen and (max-width:800px) {
+    .up{
+        font-size: 36px;
+        margin: 20px 20px;
+        padding: 20px 0px;
+    }
+}

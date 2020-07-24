@@ -5,7 +5,7 @@
   padding: 20px 20px 0 20px;
 }
 .flex-container {
-  display: flex;
+  display: inherit;
   justify-content: flex-end;
   list-style-type: none;
   overflow: hidden;
@@ -88,31 +88,43 @@ li a {
   text-align: center;
   font-size: 14px;
 }
+#tmbl-nav{
+  display: none;
+}
+
 @media screen and (max-width:800px) {
-  
+  #tmbl-nav{
+    display: inherit;
+  }
+  .viapulsa{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
   .logo{
     width: 100px;
     height: 30px;
   }
   .flex-container {
+    display: table-column ;
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #F4F4F4;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
+    margin: 0px 0px;
   }
   .flex-container a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
-    display: block;
+    color: #FF9900;
     transition: 0.3s;
   }
   .flex-container a:hover{
@@ -126,18 +138,26 @@ li a {
     margin-left: 50px;
   }
   .col-md-5{
-    margin: 5px 10px 5px 10px;
+    margin: 24px ;
   }
   .span {
     margin: 15px;
   }
-  .col-md-5{
-    margin: 24px;
-  }
+  
   .carousel-inner{
     margin-top: 16px;
   }
   .navbar{
     margin-bottom: 0px;
+  }
+  .login{
+    justify-content: center;
+    display: contents;
+  }
+  .login img{
+    display: none;
+  }
+  .iconprovider{
+    font-size: 12px;
   }
  }

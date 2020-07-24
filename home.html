@@ -18,8 +18,17 @@
     <nav class="navbar sembunyi navbar-light bg-light justify-content-between">
         <div class="viapulsa">
             <a href="home.html"><img class="logo" src="image/logo.png"></a>
+            <span id="tmbl-nav"  style="font-size:30px;margin:0px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <script>
+            function openNav() {
+              document.getElementById("navigasi").style.width = "100%";
+            }
+            function closeNav() {
+              document.getElementById("navigasi").style.width = "0";
+            }
+            </script>
         </div>
-        <div class="flex-container">
+        <div class="flex-container" id="navigasi">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <li><a href="home.html"><b>Home</b></a></li>
           <li><a href="tutorial.html"><b>Tutorial</b></a></li>
@@ -28,15 +37,7 @@
           </a>
         </div>
     </nav>
-    <span style="font-size:30px;margin:16px;cursor:pointer" onclick="openNav()">&#9776; </span>
-        <script>
-        function openNav() {
-          document.getElementById("flex-container").style.width = "100%";
-        }
-        function closeNav() {
-          document.getElementById("flex-container").style.width = "0";
-        }
-        </script>
+    
     <div class="container">
         <div class="row">
             <!-- Slider -->
