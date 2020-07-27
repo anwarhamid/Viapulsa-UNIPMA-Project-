@@ -13,9 +13,13 @@
   width: 95%;
   margin: 20px 20px;
 }
-
+.navbar{
+  background-color: white;
+  border-radius: inherit!important;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 8px;
+}
 li a {
-  color: white;
+  color:#FF9900;
   text-align: center;
   padding: 5px 35px;
   text-decoration: none;
@@ -24,7 +28,9 @@ li a {
   justify-content: center;
   display: flex;
 }
-
+li a:hover{
+  color: #FF9900;
+}
 .logo {
   width: 180px;
   height: 50px;
@@ -33,7 +39,7 @@ li a {
   border-radius: 8px;
 }
 .login {
-  border: 1px solid white;
+  border: 1px solid #FF9900;
   border-radius: 20px;
   width: 125px;
   height: 44px;
@@ -91,9 +97,15 @@ li a {
 #tmbl-nav{
   display: none;
 }
+.closebtn{
+  display: none;
+}
 
 @media screen and (max-width:800px) {
   #tmbl-nav{
+    display: inherit;
+  }
+  .closebtn{
     display: inherit;
   }
   .viapulsa{
@@ -159,5 +171,8 @@ li a {
   }
   .iconprovider{
     font-size: 12px;
+  }
+  .item img{
+    border-radius: 8px;
   }
  }

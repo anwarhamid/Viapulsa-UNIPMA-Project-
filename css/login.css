@@ -36,6 +36,7 @@
     color: black;
     background-color: #ffffff;
     padding: 0 52px!important;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 8px;
   }
   .btn-login {
     font-family: roboto;

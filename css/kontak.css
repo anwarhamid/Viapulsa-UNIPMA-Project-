@@ -140,3 +140,12 @@ img{ max-width:100%;}
   height: 400px;
   overflow-y: auto;
 }
+.mesgs{
+  display: inherit;
+}
+
+@media screen and (max-width:800px) {
+  .mesgs{
+    display: none;
+  }
+}

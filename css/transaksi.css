@@ -23,3 +23,65 @@
     padding: 12px 20px;
     cursor: pointer;
 }
+.tabel-transaksi{
+    display: inherit;
+}
+.mobile-transaksi{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+  .tabel-transaksi{
+      display: none;
+  }
+  .mobile-transaksi{
+      display: inherit;
+  }
+  .nav-transaksi{
+      justify-content: center;
+  }
+  .transaksi-list{
+      padding: 0.65rem;
+      margin: 0.65rem 0;
+    } 
+  .transaksi-list .card {
+    padding: 1.65rem;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
+  
+  .transaksi-list .card .trx-first {
+    flex:1;
+  }
+  
+  .transaksi-list .card .trx-second{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  
+  .transaksi-list .card .trx-text {
+    font-size: 1.2rem;
+    margin:.25rem 0;
+  }
+  
+  .transaksi-list .card .trx-value .trx-satuan {
+    color: #ec9822;
+  }
+  
+  .transaksi-list .card .trx-type {
+    display: inline;
+    font-size: 1.2rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: rgb(77, 90, 121);
+    color:white;
+  }
+  
+  .transaksi-list .trx-container {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+  }
+}

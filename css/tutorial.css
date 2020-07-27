@@ -33,11 +33,21 @@
 }
 .cara {
     text-align: left;
+    padding-top: 16px;
 }
 .row-provider {
     height: 100%;
 }
 
 @media screen and (max-width:800px) {
-    
+    .col-md-4 img{
+        width: 50px;
   }
+  .item{
+      height: 200px;
+  }
+  .cara{
+      font-size: 10px;
+      padding-top: 16px;
+  }
+}
