@@ -1,6 +1,13 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+body {
+  background-image: url('../image/background.png');
+  background-color: #F4F4F4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
 .viapulsa {
   padding: 20px 20px 0 20px;
 }
@@ -100,6 +107,10 @@ li a:hover{
 .closebtn{
   display: none;
 }
+.row{
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
 
 @media screen and (max-width:800px) {
   #tmbl-nav{
@@ -174,5 +185,8 @@ li a:hover{
   }
   .item img{
     border-radius: 8px;
+  }
+  .body {
+    background-color: #FF9900;
   }
  }

@@ -58,18 +58,21 @@
     }
     .hallo{
       text-align: left;
-      color: #FF9900;
+      color: white;
       font-size: 28px;
       margin: 80px 0 80px 0;
     }
     .btn-login{
-      color: #FF9900;
+      color: white;
       padding-top: 0px;
     }
     .btn{
-      color: white;
-      background-color: #FF9900;
+      color: #FF9900;
+      background-color: white;
       border-radius: 12px;
       box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 8px;
+    }
+    body{
+      background-image: none;
     }
   }
